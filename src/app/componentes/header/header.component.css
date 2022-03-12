@@ -1,0 +1,50 @@
+/*--Header--*/
+header {
+    display: flex;
+    background: var(--principal-background);
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    margin-left: auto;
+    margin-right: 10px;
+    color: #fff;
+}
+
+.logo_ap {
+    left: var(--body-left-margin);
+    width: 100px;
+    min-width: 80px;
+}
+
+/*--BarNav--*/
+header, .main, .footer {
+    width: 90%;
+    margin: 30px auto;
+}
+
+header nav ul {
+    display: table;
+    list-style: none;    
+}
+
+header nav ul li {
+    float: left;
+    margin: 6px 6px;
+    color: #fff;
+    font-size: 14px;
+}
+
+header nav ul li:hover {
+    
+    background: RGB(165,165,141);
+    color: #000;
+}
+
+nav {
+    width: 400px;
+    min-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}

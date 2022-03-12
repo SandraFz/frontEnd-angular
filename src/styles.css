@@ -1,0 +1,21 @@
+/*General*/
+:root {
+    --principal-background:RGB(107,112,92);
+    --body-width: 60%;
+    --body-left-margin: 25px;
+    --img-project: auto;
+    --relative-width: width;
+    --relative-height: hight;
+}
+
+article .container, footer {
+    width: var(--body-width);
+    margin-top:40px;
+    margin-left: var(--body-left-margin);
+    /*background:rgb(139, 11, 11); /*--ELIMINAR--*/
+}
+
+p {
+    font-size: 14px;
+}
+
