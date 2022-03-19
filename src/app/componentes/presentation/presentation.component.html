@@ -2,7 +2,7 @@
     <div class="container">
         <div class="container1">
             <div class="img-presentation">
-                <img src="../../../assets/img/Lola_y_yo_en_Mascompany.jpg" alt="Fotografía personal">
+                <img [src]="portfolioService.myImage" alt="Fotografía personal">
             </div>
                 
             
@@ -15,11 +15,11 @@
         </div>
         <div class="background container">
             <div class="datos"></div>
-            <span class="name">Sandra N. Fernández</span>
+            <span class="name">{{portfolioService.name}}</span>
             <br>
-            <span>Full Stack Developer Jr</span>
+            <span>{{portfolioService.profession}}</span>
             <br>
-            <span>Formosa, Argentina</span>
+            <span>{{portfolioService.city}}</span>
             
         </div>
     </div>
