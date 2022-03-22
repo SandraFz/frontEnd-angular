@@ -6,6 +6,8 @@
     "projects": [
         {   "idHeading":"headingOne",
             "classCollapse":"collapseOne",
+            "classCollapse2":"#collapseOne",
+            "arieLabel":"headingOne",
             "logoProject": "../../../assets/img/APLogo-20-20.png",
             "descripcion": "<strong>This is the FIRST item's accordion body.</strong> It is shown by default,until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.",
             "imgProyecto": "../../../assets/img/sigmund-F_m44ut3XTw-unsplash.jpg-"
@@ -13,6 +15,8 @@
         {   
             "idHeading":"headingTwo",
             "classCollapse":"collapseTwo",
+            "classCollapse2":"#collapseTwo",
+            "arieLabel":"headingTwo",
             "logoProject":"../../../assets/img/FNA-logo.png",
             "descripcion":"textContent2",
             "imgProyecto":"../../../assets/img/telar_mapuche.jpeg"
@@ -20,6 +24,8 @@
         {   
             "idHeading":"headingThree",
             "classCollapse":"collapseThree",
+            "classCollapse2":"#collapseThree",
+            "arieLabel":"headingThree",
             "logoProject":"../../../assets/img/ratarrizz1.png",
             "descripcion":"textContent3",
             "imgProyecto":"../../../assets/img/Bolso reciclado.png"
