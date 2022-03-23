@@ -22,8 +22,16 @@
 background: var(--principal-background);
 }
 
+.container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    border-top: 1px solid black;
+    gap: 10px;
+}
+
 .img-button-accordion {
-    width: 100px;
+    /*width: 100px;*/
+    height: 25px;
     margin-left: 0px;
 }
 
@@ -32,6 +40,11 @@ background: var(--principal-background);
     margin-left: var(--img-project);
 }
 
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 .row-project {
     /*background:rgb(139, 11, 11); /*--ELIMINAR--*/
@@ -53,4 +66,10 @@ background: var(--principal-background);
     top: -100%;
     bottom: -100%;
     margin: auto;    
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        display: block;
+    }
 }
