@@ -1,4 +1,8 @@
 /*General*/
+/** {
+    margin:0px;
+    padding:0ps;
+}*/
 :root {
     --principal-background:RGB(107,112,92);
     /*--body-width: 60%;*/

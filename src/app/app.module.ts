@@ -28,7 +28,7 @@ import { EstudiesComponent } from './componentes/estudies/estudies.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
