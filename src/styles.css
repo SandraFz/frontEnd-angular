@@ -15,7 +15,9 @@ article .container, footer {
     /*background:rgb(139, 11, 11); /*--ELIMINAR--*/
 }
 
+
 p {
-    font-size: 14px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
 }
 
