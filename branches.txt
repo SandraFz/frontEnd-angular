@@ -1,2 +1,4 @@
 1-master
-        2-datos. Objetivo: probar agregar un div que incluya los datos para ver si se acomodan los estilos. Se le puede aplicar la clase container pero eso modificaría todos los estilos dentro. Revisar position absolute y relative.
+        2- Datos: Prueba de directivas en proyectos. datos
+1-master
+                3-Directivas: . Objetivo: probar agregar un div que incluya los datos para ver si se acomodan los estilos. Se le puede aplicar la clase container pero eso modificaría todos los estilos dentro. Revisar position absolute y relative.
