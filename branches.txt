@@ -1,4 +1,13 @@
 1-master
-        2- Datos: Prueba de directivas en proyectos. datos
-1-master
-                3-Directivas: . Objetivo: probar agregar un div que incluya los datos para ver si se acomodan los estilos. Se le puede aplicar la clase container pero eso modificaría todos los estilos dentro. Revisar position absolute y relative.
+        1.2- Datos: Prueba de directivas en proyectos. datos
+2-master
+        2.1-Directivas: . Objetivo: probar agregar un div que incluya los datos para ver si se acomodan los estilos. Se le puede aplicar la clase container pero eso modificaría todos los estilos dentro. Revisar position absolute y relative.
+3-master
+• Alinear mejor la cabecera.
+• Falta link de Argentina Programa en cabecera.
+• Mejorar responsividad en imagen de presentación.
+• Volver a intentar binding en acordion de Bootstrap; probar a partir de segunda pestaña.
+• Probar insertar video en proyectos. Editar.
+• Links a pestañas aparte.
+
+        3.1-mainGrid

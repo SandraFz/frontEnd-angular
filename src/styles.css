@@ -1,7 +1,7 @@
 /*General*/
 :root {
     --principal-background:RGB(107,112,92);
-    --body-width: 60%;
+    /*--body-width: 60%;*/
     --body-left-margin: 25px;
     --img-project: auto;
     --relative-width: width;

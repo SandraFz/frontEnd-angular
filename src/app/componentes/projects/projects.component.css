@@ -30,7 +30,7 @@ background: var(--principal-background);
 }
 
 .img-button-accordion {
-    /*width: 100px;*/
+    max-width:100px;
     height: 25px;
     margin-left: 0px;
 }
@@ -73,3 +73,5 @@ background: var(--principal-background);
         display: block;
     }
 }
+
+

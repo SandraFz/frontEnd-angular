@@ -7,6 +7,11 @@ import { HeaderComponent } from './componentes/header/header.component';
 import { PresentationComponent } from './componentes/presentation/presentation.component';
 import { ProjectsComponent } from './componentes/projects/projects.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ExperienceComponent } from './componentes/experience/experience.component';
+import { SidebarComponent } from './componentes/sidebar/sidebar.component';
+import { ContactComponent } from './componentes/contact/contact.component';
+import { FooterComponent } from './componentes/footer/footer.component';
+import { EstudiesComponent } from './componentes/estudies/estudies.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +19,11 @@ import { HttpClientModule } from '@angular/common/http';
     HeaderComponent,
     PresentationComponent,
     ProjectsComponent,
+    ExperienceComponent,
+    SidebarComponent,
+    ContactComponent,
+    FooterComponent,
+    EstudiesComponent,
   ],
   imports: [
     BrowserModule,
