@@ -1,4 +1,38 @@
+.container {
+    background: burlywood;
+    display:grid;
+    gap:20px;
+    /*grid-template-columns:repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);*/
+}
+/*
 .main {
     display:grid;
-    /*grid-template-columns:repeat(3, 2fr 1fr);*/
+    gap:20px;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-template-columns: 1 / span 3;
+}*/
+
+/*
+.article {
+    grid-column: span 2;
+    
+    background:var(--second-background);
 }
+
+app-sidebar {
+    grid-column:3/span-1;
+   
+}*/
+
+
+@media screen and (max-width:1024px){
+
+    
+}
+
+
+
+
+

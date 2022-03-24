@@ -1,23 +1,29 @@
 /*General*/
-/** {
-    margin:0px;
-    padding:0ps;
-}*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
 :root {
     --principal-background:RGB(107,112,92);
     --principal-background-opacity: rgba(107,112,92, 0.6);
     --second-background:RGB(217,174,148);
     --second-background-trans:rgba(217,174,148,0.6);
     /*--body-width: 60%;*/
-    --body-left-margin: 25px;
+    /*--body-left-margin: 25px;*/
     --img-project: auto;
 }
 
+body {
+    width: 100%;
+    background: aquamarine;
+}
+
 .container {
-    width: var(--body-width);
-    margin-top:40px;
-    margin-left: var(--body-left-margin);
-    /*background:rgb(139, 11, 11); /*--ELIMINAR--*/
+    width: 100%;
+    
+   /* margin-top:40px;*/
+    margin-left: 20px var(--body-left-margin) 30px 0px;
+    border: 2px solid var(--principal-background);
 }
 
 
@@ -27,7 +33,7 @@ p {
 }
 
 @media screen and (max-width: 768px) {
-    .container {
+    /*.container {
         min-width: 150px;
-    }
+    }*/
 }
