@@ -11,3 +11,4 @@
 • Links a pestañas aparte.
 
         3.1-mainGrid
+        •Falta continuar la responsividad del container general.
