@@ -1,4 +1,67 @@
 .component-container {
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
+}
+
+.cursos {
+    background: rgb(208, 173, 241);
+    width: 25%;
+}
+
+.curso > h6, p {
+    display: inline;
+}
+
+
+.detail {
+    margin: auto auto auto 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: 0%;
+    
+}
+
+.detail > p, h6 {
+    margin: 0px auto;
+    display: block;
+}
+
+.studies {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid brown;
+}
+
+.studies > li {
+    
+}
+
+.studies-det {
+    display:block;
+
+    width: 100%;
+    border: 1px solid green;
+}
+
+
+.studies-det > li {
+    height: 50px;
+    margin: 20px auto 0px;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    gap: 5px;
+    border: 1px solid black;
+}
+
+img {
+    width: 24px;
+}
+
+.img-studies {
+    width: 35px auto;
+    margin:auto;
+    border-radius: 50%;
+    padding: 5px;
 }

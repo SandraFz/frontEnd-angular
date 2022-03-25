@@ -5,9 +5,9 @@
 }
 :root {
     --principal-background:RGB(107,112,92);
-    --principal-background-opacity: rgba(107,112,92, 0.6);
+    --principal-background-opacity: rgba(107,112,92, 0.8);
     --second-background:RGB(217,174,148);
-    --second-background-trans:rgba(217,174,148,0.6);
+    --second-background-trans:rgba(217,174,148,0.8);
     /*--body-width: 60%;*/
     /*--body-left-margin: 25px;*/
     --img-project: auto;
@@ -30,6 +30,10 @@ body {
 p {
     font-family: 'Roboto Mono', monospace;
     font-size: 12px;
+}
+
+ul {
+    list-style: none;
 }
 
 @media screen and (max-width: 768px) {
