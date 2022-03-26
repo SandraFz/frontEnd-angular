@@ -1,6 +1,116 @@
-{
+{   
+    "title":"",
+    "favicom":"",
+    "logoArgProg":"../../../assets/img/logoArgProg",
+
     "name": "Sandra N. Fernández",
-    "profession": "FullStack Jr",
+    "profession": "Full Stack Developer Jr",
     "city": "Formosa",
-    "myImage": "../../../assets/img/Lola_y_yo_en_Mascompany.jpg"
+    "aboutMe":"Aquí voy a redactar de modo ameno una descripción de mi como persona y trabajadora. Aquí voy a redactar de modo ameno una descripción de mi como persona y trabajadora. Aquí voy a redactar de modo ameno una descripción de mi como persona y trabajadora.",
+    "myImage": "../../../assets/img/fotoProfesional.jpg",
+
+    "proyectos": [
+        {
+            "logoProyecto":"",
+            "linkProyecto":"",
+            "descripcionProyecto":"Aquí voy a describir a grandes rasgos el proceso creativo del proyecto Argentina Programa. El texto estará precedido por el nombre del programa que será un link a la página oficial de AP; la cual también va a funcionar cuando se haga click en la foto.",
+            "imgProyecto":"../../../../assets/img/"
+        },
+        {
+            "logoProyecto":"",
+            "linkProyecto":"",
+            "descripcionProyecto":"Aquí voy a describir a grandes rasgos el proceso creativo del proyecto. El texto estará precedido por el nombre del programa que será un link a la página oficial de referencia; la cual también va a funcionar cuando se haga click en la foto.",
+            "imgProyecto":"../../../../assets/img/"
+        },
+        {
+            "logoProyecto":"",
+            "linkProyecto":"",
+            "descripcionProyecto":"Aquí voy a describir a grandes rasgos el proceso creativo del proyecto. El texto estará precedido por el nombre del programa que será un link a la página oficial de referencia; la cual también va a funcionar cuando se haga click en la foto.",
+            "imgProyecto":"../../../../assets/img/"
+        }
+    ],
+    "experiencia": [
+        {
+            "descripcionExperiencia": "Aquí voy a contextualizar la experiencia laboral que considero más relevante.",
+            "itemCarrusel": [
+                {
+                    "imgCarrusel":"",
+                    "descripcionImgCarrusel":"Breve descripción de la imagen."
+                },
+                {
+                    "imgCarrusel":"",
+                    "descripcionImgCarrusel":"Breve descripción de la imagen."
+                },
+                {
+                    "imgCarrusel":"",
+                    "descripcionImgCarrusel":"Breve descripción de la imagen."
+                }
+            ]
+        }
+    ],
+    "estudios":[
+        {
+            "estudioFormales": [
+                {
+                    "logoEstudios":"",
+                    "tituloEstudio":"",
+                    "entidadEstudio":"",
+                    "anioInitEstudio":"",
+                    "anioEndEstudio":""
+                },
+                {
+                    "logoEstudios":"",
+                    "tituloEstudio":"",
+                    "entidadEstudio":"",
+                    "anioInitEstudio":"",
+                    "anioEndEstudio":""
+                },
+                {
+                    "logoEstudios":"",
+                    "tituloEstudio":"",
+                    "entidadEstudio":"",
+                    "anioInitEstudio":"",
+                    "anioEndEstudio":""
+                }
+            ]
+        },
+        {
+            "otrosCursos": [
+                {
+                    "tituloCurso":"",
+                    "entidadCurso":"",
+                    "anioCurso":""
+                },
+                {
+                    "tituloCurso":"",
+                    "entidadCurso":"",
+                    "anioCurso":""
+                },
+                {
+                    "tituloCurso":"",
+                    "entidadCurso":"",
+                    "anioCurso":""
+                }
+            ]
+        }
+        
+        
+    ],
+    "skills": [
+        {
+            "lenguajes": [
+                {
+                    "lenguaje":"",
+                    "%lenguaje":""
+                }
+            ],
+            "ingles": [
+                {
+                    "%entiendo":"",
+                    "%escribo":"",
+                    "%hablo":""
+                }
+            ]
+        }
+    ]
 }

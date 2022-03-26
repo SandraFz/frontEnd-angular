@@ -22,7 +22,7 @@
 background: var(--principal-background);
 }
 
-.container {
+.component-container {
     display: grid;
     grid-template-columns: 2fr 1fr;
     border-top: 1px solid black;
@@ -69,7 +69,7 @@ background: var(--principal-background);
 }
 
 @media screen and (max-width: 768px) {
-    .container {
+    .component-container {
         display: block;
     }
 }

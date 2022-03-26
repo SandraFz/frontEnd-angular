@@ -1,5 +1,9 @@
 
+.component-container {
 
+    
+    border: 2px solid yellow;
+}
 .container1 {
     display: flex;
     flex-direction: row-reverse;
@@ -9,12 +13,13 @@
 
 .img-presentation {
     display: flex;
-    position: relative;
+   /* position: relative;*/
     overflow: hidden;
     /*background-color: aqua;*/
     margin-right: 0px;
     /*justify-content: baseline;*/
-    
+    border: 2px solid salmon;
+    justify-content: center;
 
 }
 
@@ -34,11 +39,12 @@ img {
 
 
 .background {
+    flex-shrink: 1;
     margin:20px auto 30px 0px;
     height: 80px;
     
     border-radius: 25px;  
-    width: var (--body-width);
+   /*   width: 100%;*/
     /*position: absolute;*/
     opacity: 0.9;
     border: 2px solid var(--principal-background);
@@ -46,10 +52,12 @@ img {
 
 
 span {
+    
     font-family: 'Roboto Mono', monospace;
     font-size: 10px;
     margin: 5px 20px;
     line-height:2px;
+    background: burlywood;
 }
 
 .name {
@@ -77,6 +85,10 @@ span {
         width: 90%;
         min-width: 100px;  
     }
+.background {
+    margin: 20px auto;
+}
+
     
 }
 

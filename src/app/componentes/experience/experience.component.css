@@ -1,6 +1,6 @@
 .component-container {
-    margin: 20px auto;
-    border: 2px solid var(--principal-background);
+    
+    border: 2px solid green;
 }
 
 .carousel{
@@ -14,6 +14,10 @@
     border-radius: 10%;
     margin-bottom: 0%;
     padding: 3px;
+}
+
+.carousel-iner {
+    width: 100%;
 }
 
 div .carousel-item {
@@ -53,3 +57,9 @@ img {
 .trans {
     opacity: 0.5;
 }
+
+@media screen and (max-width: 768px) {
+    
+}
+
+

@@ -4,6 +4,8 @@ header {
     background: var(--principal-background);
     justify-content: center;
     align-items: center;
+    border: 2px solid black;
+    
 }
 
 .login {

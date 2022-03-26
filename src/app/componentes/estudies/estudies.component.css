@@ -1,7 +1,7 @@
-.component-container {
+/*.component-container {
     display:flex;
     flex-direction: column;
-}
+}*/
 
 .cursos {
     background: rgb(208, 173, 241);
@@ -34,9 +34,6 @@
     border: 1px solid brown;
 }
 
-.studies > li {
-    
-}
 
 .studies-det {
     display:block;
@@ -65,3 +62,10 @@ img {
     border-radius: 50%;
     padding: 5px;
 }
+
+@media screen and (max-width:768px) {
+    .studies {
+        display: block;
+    }
+}
+

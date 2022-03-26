@@ -11,10 +11,13 @@
     /*--body-width: 60%;*/
     /*--body-left-margin: 25px;*/
     --img-project: auto;
+    --mediaQuerySmall: 300px;
+    --mediaQueryMedium: 500px;
+    --mediaQueryLarge: 768;
 }
 
 body {
-    width: 100%;
+    
     background: aquamarine;
 }
 
@@ -22,8 +25,13 @@ body {
     width: 100%;
     
    /* margin-top:40px;*/
-    margin-left: 20px var(--body-left-margin) 30px 0px;
+    
     border: 2px solid var(--principal-background);
+    border: 3px solid blue;
+}
+
+.component-container {
+    width: 100%;
 }
 
 
@@ -37,7 +45,12 @@ ul {
 }
 
 @media screen and (max-width: 768px) {
-    /*.container {
-        min-width: 150px;
+   /* .component-container {
+        width: 500px;
     }*/
 }
+
+@media screen and (max-width: 400px) {
+    
+}
+
