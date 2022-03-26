@@ -12,6 +12,7 @@ import { SidebarComponent } from './componentes/sidebar/sidebar.component';
 import { ContactComponent } from './componentes/contact/contact.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { EstudiesComponent } from './componentes/estudies/estudies.component';
+import { EditComponent } from './componentes/subcomponentes/edit/edit.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { EstudiesComponent } from './componentes/estudies/estudies.component';
     ContactComponent,
     FooterComponent,
     EstudiesComponent,
+    EditComponent,
   ],
   imports: [
     BrowserModule,

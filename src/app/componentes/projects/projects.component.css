@@ -24,6 +24,7 @@ background: var(--principal-background);
 
 .component-container {
     display: grid;
+    
     grid-template-columns: 2fr 1fr;
     border-top: 1px solid black;
     gap: 30px;
