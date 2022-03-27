@@ -51,26 +51,29 @@
     "estudios":[
         {
             "estudioFormales": [
+                
                 {
                     "logoEstudios":"",
-                    "tituloEstudio":"",
-                    "entidadEstudio":"",
-                    "anioInitEstudio":"",
-                    "anioEndEstudio":""
+                    "tituloEstudio":"Full Stack Developer Jr",
+                    "entidadEstudio":"Argentina Programa",
+                    "anioInitEstudio":"2021",
+                    "anioEndEstudio":"2022"
                 },
+
                 {
                     "logoEstudios":"",
-                    "tituloEstudio":"",
-                    "entidadEstudio":"",
-                    "anioInitEstudio":"",
-                    "anioEndEstudio":""
+                    "tituloEstudio":"Confeccionista a medida (modista)",
+                    "entidadEstudio":"NEP N°15",
+                    "anioInitEstudio":"2016",
+                    "anioEndEstudio":"2017"
                 },
+
                 {
                     "logoEstudios":"",
-                    "tituloEstudio":"",
-                    "entidadEstudio":"",
-                    "anioInitEstudio":"",
-                    "anioEndEstudio":""
+                    "tituloEstudio":"Profesorado/Licenciatura en Filosofía (incompleto)",
+                    "entidadEstudio":"Universidad Nacional del Nordeste (UNNE)",
+                    "anioInitEstudio":"1999",
+                    "anioEndEstudio":"2002"
                 }
             ]
         },

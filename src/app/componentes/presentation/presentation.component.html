@@ -1,7 +1,7 @@
 <article>
     <div class="component-container">
         
-        <app-edit></app-edit>
+        <app-edit ></app-edit>
         <div class="container1">
            <div class="img-presentation"> 
                 <img [src]="portfolioService.myImage" alt="Fotografía personal">
@@ -13,7 +13,12 @@
                 <p class="text-presentation">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Maiores, earum laboriosam cumque unde tenetur ab? Nihil amet, saepe, maxime dolore
                     enim deserunt corporis non, veniam rerum laudantium perferendis porro atque.</p>
-                
+                    
+                    <form id="formEdit" action="" style= "display:none" styles="height=0px" >           
+                        <textarea name="" id="newText" oninput="ingresar_parrafo(this.value)" cols="30" rows="5" ></textarea>
+                        <input type="submit" onclick="cambiar_texto()">
+                    </form>
+
             </div>
             
         </div>

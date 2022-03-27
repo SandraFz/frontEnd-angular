@@ -2,7 +2,7 @@
 .component-container {
 
     
-    border: 2px solid yellow;
+    /*border: 2px solid yellow;*/
 }
 .container1 {
     display: flex;
@@ -18,7 +18,7 @@
     /*background-color: aqua;*/
     margin-right: 0px;
     /*justify-content: baseline;*/
-    border: 2px solid salmon;
+    /*border: 2px solid salmon;*/
     justify-content: center;
 
 }
@@ -57,7 +57,7 @@ span {
     font-size: 10px;
     margin: 5px 20px;
     line-height:2px;
-    background: burlywood;
+    
 }
 
 .name {
@@ -85,9 +85,10 @@ span {
         width: 90%;
         min-width: 100px;  
     }
-.background {
-    margin: 20px auto;
-}
+    
+    .background {
+        margin: 20px auto;
+    }
 
     
 }

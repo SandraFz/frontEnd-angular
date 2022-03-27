@@ -1,12 +1,12 @@
 .component-container {
     
     background: var(--second-background-opacity);
-    border: 2px solid cadetblue;
+    /*border: 2px solid cadetblue;*/
 }
 
 form {
     width: 50%;;
-    border: 1px solid grey;
+    /*border: 1px solid grey;*/
     margin: 20px;
     box-shadow: 0 4px 8px 0 var(--principal-background-opacity), 0 6px 20px 0 var(--principal-background-opacity);
     padding: 15px;

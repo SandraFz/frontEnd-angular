@@ -14,5 +14,11 @@ export class ServicioService {
 
     return this.http.get("./assets/data/data.json");
     //console.log("El servicio está corriendo");
-  }
+  };
+
+  
+
 }
+
+
+

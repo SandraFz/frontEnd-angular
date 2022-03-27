@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './componentes/header/header.component';
@@ -13,6 +14,8 @@ import { ContactComponent } from './componentes/contact/contact.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { EstudiesComponent } from './componentes/estudies/estudies.component';
 import { EditComponent } from './componentes/subcomponentes/edit/edit.component';
+
+
 
 @NgModule({
   declarations: [

@@ -1,11 +1,7 @@
-/*.component-container {
-    display:flex;
-    flex-direction: column;
-}*/
 
 
 .cursos {
-    background: rgb(208, 173, 241);
+    /*background: rgb(208, 173, 241);*/
     width: 25%;
 }
 
@@ -32,7 +28,7 @@
     
     display: grid;
     grid-template-columns: 1fr 1fr;
-    border: 1px solid brown;
+    /*border: 1px solid brown;*/
 }
 
 
@@ -41,7 +37,7 @@
     justify-content: center;
 
     width: 100%;
-    border: 1px solid green;
+    /*border: 1px solid green;*/
 }
 
 
@@ -52,7 +48,7 @@
     display: grid;
     grid-template-columns: 1fr 5fr;
     gap: 5px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 }
 
 img {
@@ -68,7 +64,7 @@ img {
 
 @media screen and (max-width:768px) {
     .studies {
-        display: block;
+        display:block;
     }
 }
 
