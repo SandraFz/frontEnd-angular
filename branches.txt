@@ -4,17 +4,22 @@
         2.1-Directivas: . Objetivo: probar agregar un div que incluya los datos para ver si se acomodan los estilos. Se le puede aplicar la clase container pero eso modificaría todos los estilos dentro. Revisar position absolute y relative.
 3-master
 • Alinear mejor la cabecera.
-• Falta link de Argentina Programa en cabecera.
-• Mejorar responsividad en imagen de presentación.
+• [RESUELTO] Falta link de Argentina Programa en cabecera.
+• [RESUELTO] Mejorar responsividad en imagen de presentación.
 • Volver a intentar binding en acordion de Bootstrap; probar a partir de segunda pestaña.
 • Probar insertar video en proyectos. Editar.
 • Links a pestañas aparte.
         3.1-mainGrid
-        •Falta continuar la responsividad del container general.
+        •[RESUELTO] Falta continuar la responsividad del container general.
                 3.2-mainGrid    
-                •Aplicar grid para el main desde component.
+                •[RESUELTO] Aplicar grid para el main desde component.
 master4
 •Falta servicios e interpolar casi todo.
+•Los estilos de las listas de estudios y cursos no se alinean como pretendo. Hacer de nuevo. 
         servicios4.1
                 servicios4.2
-                Incorporar código JavaScript en index para editar contenido.
+                •Incorporar código JavaScript en index para editar contenido.
+                •No entiendo cómo salvar los cambios después de editar.
+                •Tampoco entiendo por qué el botón "enviar" (que debería ser "guardar") cierra todos los textarea abiertos y no solo el del parámetro correspondiente.
+                •El databinding no funciona en el componente "proyecto", excepto el link de Argentina Programa al inicio del proyecto principal.
+                •Tampoco me funcionó el ngFor.

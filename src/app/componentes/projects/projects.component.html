@@ -4,12 +4,18 @@
     <div class="component-container">
         
         <div class="articles projects">
-            <app-edit></app-edit>
-            <a href="http://localhost:4200/" style="text-decoration: none"><h2>Mis proyectos en proceso</h2></a> <!--pasar a Json-->
             
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab quis necessitatibus libero,
-                illum nostrum iure odit nobis explicabo cumque alias! Facilis vero cumque quo sapiente?
-                Necessitatibus at assumenda corrupti facere?</p>
+            <a href="http://localhost:4200/" style="text-decoration: none"><h2>Mis proyectos en proceso</h2></a> <!--pasar a Json-->
+            <app-edit onclick="editElement('EditPpalProyect')"></app-edit>
+            <p id="text-PpalProyect" style="background: yellow;">{{portfolioServProy.proyectos.descripcionProyectoPpal}}
+                <a [href]="portfolioServProy.linkArgProg">Argentina Programa - </a>
+                </p>
+
+                <form id="EditPpalProyect" style= "display:none">           
+                    <textarea oninput="ingresar_parrafo('text-PpalProyect', this.value)" cols="30" rows="5" ></textarea>
+                    <input type="submit" onclick="guardar_cambio('EditPpalProyect')">
+                </form>
+                
                 <a href="http://localhost:4200/"><img src="../../../assets/img/sigmund-F_m44ut3XTw-unsplash.jpg" alt="Programadora trabajando"
                     class="img-project"></a> <!--ACTUALIZAR-->
                 
@@ -21,7 +27,7 @@
                 <h2 class="accordion-header" id="headingOne">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        <img src="../../../assets/img/FNA-logo.png" alt="Logo Fondo Nacional de las Artes"
+                        <img [src]="portfolioServProy.logoProyecto2" alt="Logo Fondo Nacional de las Artes"
                                 class="img-button-accordion">
                     </button>
                 </h2>
@@ -30,9 +36,7 @@
                     <div class="accordion-body">
                         <img src="../../../assets/img/telar_mapuche.jpeg" alt="Muestra de telar mapuche"
                                 class="img-central-accordion img-project telar">
-                        <strong>This is the FIRST item's accordion body.</strong> It is shown by default,
-                        <code>.accordion-body</code>, though the transition does limit overflow.
-
+                        <p>{{portfolioServProy.descripcionProyecto2}}</p>
                     </div>
                 </div>
                 <div class="accordion-item">

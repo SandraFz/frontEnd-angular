@@ -1,3 +1,7 @@
+a {
+    text-decoration: none;
+}
+
 .acordion-body {
     width: 100%;
     display:flex;

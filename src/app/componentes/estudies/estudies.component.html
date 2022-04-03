@@ -6,14 +6,14 @@
             
             <ul  class="studies-det">
                 <app-edit></app-edit>
-                <li>
+                <li *ngFor="let estudio of educFormal">
                     <div class="img-studies">
                         <img src="../../../assets/img/literature (1).png" alt="">
                     </div>
                     
                     <div class="detail">
-                        <h6> estudio </h6>
-                        <p>año-año</p>
+                        <h6> {{estudio.tituloEstudio}} </h6>
+                        <p>{{estudio.anioInitEstudio}}-{{estudio.anioEndEstudio}}</p>
                     </div>
                 </li>
                 <li>
@@ -49,7 +49,7 @@
                     <p>entidad</p>
                     <p>año</p>
                 </li>
-                <li class="curso">
+                <!--<li class="curso">
                     <h6>curso</h6>
                     <p>entidad</p>
                     <p>año</p>
@@ -58,7 +58,7 @@
                     <h6>curso</h6>
                     <p>entidad</p>
                     <p>año</p>
-                </li>
+                </li>-->
             </ul>
         
         </div>

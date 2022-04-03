@@ -1,7 +1,8 @@
 {   
-    "title":"",
+    "title":"SandraFz-portfolio",
     "favicom":"",
     "logoArgProg":"../../../assets/img/logoArgProg",
+    "linkArgProg":"https://www.argentina.gob.ar/produccion/transformacion-digital-y-economia-del-conocimiento/argentina-programa",
 
     "name": "Sandra N. Fernández",
     "profession": "Full Stack Developer Jr",
@@ -11,16 +12,16 @@
 
     "proyectos": [
         {
-            "logoProyecto":"",
-            "linkProyecto":"",
-            "descripcionProyecto":"Aquí voy a describir a grandes rasgos el proceso creativo del proyecto Argentina Programa. El texto estará precedido por el nombre del programa que será un link a la página oficial de AP; la cual también va a funcionar cuando se haga click en la foto.",
-            "imgProyecto":"../../../../assets/img/"
+            "logoProyectoPpal":"",
+            "linkProyectoPpal":"",
+            "descripcionProyectoPpal":"Aquí voy a describir a grandes rasgos el proceso creativo del proyecto Argentina Programa. El texto estará precedido por el nombre del programa que será un link a la página oficial de AP; la cual también va a funcionar cuando se haga click en la foto.",
+            "imgProyectoPpal":"../../../../assets/img/"
         },
         {
-            "logoProyecto":"",
-            "linkProyecto":"",
-            "descripcionProyecto":"Aquí voy a describir a grandes rasgos el proceso creativo del proyecto. El texto estará precedido por el nombre del programa que será un link a la página oficial de referencia; la cual también va a funcionar cuando se haga click en la foto.",
-            "imgProyecto":"../../../../assets/img/"
+            "logoProyecto2":"../../../assets/img/FNA-logo.png",
+            "linkProyecto2":"",
+            "descripcionProyecto2":"Aquí voy a describir a grandes rasgos el proceso creativo del proyecto. El texto estará precedido por el nombre del programa que será un link a la página oficial de referencia; la cual también va a funcionar cuando se haga click en la foto.",
+            "imgProyecto2":"../../../../assets/img/"
         },
         {
             "logoProyecto":"",
@@ -50,7 +51,7 @@
     ],
     "estudios":[
         {
-            "estudioFormales": [
+            "estudiosForm": [
                 
                 {
                     "logoEstudios":"",
@@ -62,7 +63,7 @@
 
                 {
                     "logoEstudios":"",
-                    "tituloEstudio":"Confeccionista a medida (modista)",
+                    "tituloEstudio":"Confeccionista a medida",
                     "entidadEstudio":"NEP N°15",
                     "anioInitEstudio":"2016",
                     "anioEndEstudio":"2017"
