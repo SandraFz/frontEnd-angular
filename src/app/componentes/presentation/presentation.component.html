@@ -2,6 +2,27 @@
     <div class="component-container">
         
         <app-edit ></app-edit>
+        <div>
+            <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit rerum, eos sed repellendus itaque quis dolorem dolore voluptatibus, molestias aperiam quos iste similique, possimus repudiandae commodi recusandae doloribus maxime omnis?</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam ipsum dignissimos, expedita voluptatum culpa porro a nulla sapiente, ipsa magnam distinctio eveniet consequatur ducimus harum odio fugiat veritatis aperiam quibusdam!</p>
+<!--<div class="button1" >
+    <button onclick="editElement">edit</button>
+</div>-->
+
+<div class="btnEdit" onclick="editElement()" style="border:2px solid blue" style="height: 50px;">
+    <a href="#" class="btn-right">edit</a>
+    <i class="fa fa-pen"></i>
+</div>
+
+<form action="" id="editAbout" style="display: none;">
+    
+    <label for="mensaje">Escriba su mensaje:</label>
+    <textarea name="" id="mensaje" oninput="editText(this.value)" cols="30" rows="5"></textarea>
+
+    <input type="submit">
+</form>
+
+        </div>
         <div class="container1">
            <div class="img-presentation"> 
                 <img [src]="portfolioService.myImage" alt="Fotografía personal">
@@ -10,7 +31,7 @@
             
             <div class="presentacion">
                 <h2>Sobre mí</h2>
-                <p class="text-presentation">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <p class="text-presentation" >Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Maiores, earum laboriosam cumque unde tenetur ab? Nihil amet, saepe, maxime dolore
                     enim deserunt corporis non, veniam rerum laudantium perferendis porro atque.</p>
                     
@@ -34,7 +55,6 @@
     </div>
     
 </article>
-
 
 
 

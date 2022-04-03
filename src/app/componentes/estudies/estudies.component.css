@@ -5,8 +5,8 @@
     width: 25%;
 }
 
-.curso > h6, p {
-    display: inline-block;
+.curso {
+    text-align: left;
 }
 
 
