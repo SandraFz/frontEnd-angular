@@ -1,66 +1,51 @@
 <div class="component-container">
+    <h5>Estudios, cursos y talleres</h5>
+    <div class="subcontainer">
+        <ul class="">
+            <app-edit></app-edit>
+            <li>
+                    <div class="img"> 
+                        <img src="../../../assets/img/unne.png" alt="Logo Universidad Nacional del Nordeste - UNNE">
+                    </div>
+                    
+                
+                <div class="studies">
+                    <h6>Profesorado / Licenciatura en Filosofía (incompleto)</h6>
+                    <P>Universidad Nacional del Nordeste (UNNE).</P>
+                    <p>1999-2002</p>
+                </div>
+            </li>
     
-    
-    <p>Estudios</p>
-        <div class="studies">
+            <li>
+                <div class="img"> 
+                    <img src="../../../assets/img/argentina_programa_iso.png" alt="Logo Argentina Programa">
+                </div>
+                
             
-            <ul  class="studies-det">
-                <app-edit></app-edit>
-                <li *ngFor="let estudio of educFormal">
-                    <div class="img-studies">
-                        <img src="../../../assets/img/literature (1).png" alt="">
-                    </div>
-                    
-                    <div class="detail">
-                        <h6> {{estudio.tituloEstudio}} </h6>
-                        <p>{{estudio.anioInitEstudio}}-{{estudio.anioEndEstudio}}</p>
-                    </div>
-                </li>
-                <li>
-                    <div class="img-studies">
-                        <img src="../../../assets/img/programming-code-signs (1).png" alt="">
-                    </div>
-                    
-                    <div class="detail">
-                        <h6> estudio </h6>
-                        <p>año-año</p>
-                    </div>
-                </li>
-                <li>
-                    <div class="img-studies">
-                        <img src="../../../assets/img/design (1).png" alt="">
-                    </div>
-                    
-                    <div class="detail">
-                        <h6> estudio </h6>
-                        <p>año-año</p>
-                    </div>
-                </li>
-            </ul>
-            <ul class="studies-det cursos">
-                <app-edit></app-edit>
-                <li class="curso">
-                    <div><h6>curso</h6></div>
-                    <div><p>entidad</p></div>
-                    <div><p>año</p></div>
-                </li>
-                <li class="curso">
-                    <h6>curso</h6>
-                    <p>entidad</p>
-                    <p>año</p>
-                </li>
-                <!--<li class="curso">
-                    <h6>curso</h6>
-                    <p>entidad</p>
-                    <p>año</p>
-                </li>
-                <li class="curso">
-                    <h6>curso</h6>
-                    <p>entidad</p>
-                    <p>año</p>
-                </li>-->
-            </ul>
-        
-        </div>
-    
+                <div class="studies">
+                    <h6>Full Stack Web Developer</h6>
+                    <P>Argentina Programa</P>
+                    <p>2021-2022</p>
+                </div>
+            </li>
+        </ul>
+        <ul class="course">
+            <app-edit></app-edit>
+            <li class="studies">
+                <h6>Emprendedorismo</h6>
+                <p>Ministerio de la Producción de la Provincia de Formosa</p>
+                <p>2018</p>
+            </li>
+            <li class="studies">
+                <h6>Asistente de Recursos Humanos</h6>
+                <p>Centro de Empleados de Cormercio</p>
+                <p>2018</p>
+            </li>
+        </ul>
+    </div>
 </div>
+
+
+
+
+
