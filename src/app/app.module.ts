@@ -17,6 +17,7 @@ import { EditComponent } from './componentes/subcomponentes/edit/edit.component'
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,6 +30,8 @@ import { EditComponent } from './componentes/subcomponentes/edit/edit.component'
     FooterComponent,
     EstudiesComponent,
     EditComponent,
+
+
   ],
   imports: [
     BrowserModule,

@@ -1,37 +1,35 @@
 <article>
+
     <div class="component-container">
         
-        <div>
-            <app-edit onclick="editElement('EditPresentation')"></app-edit>
-        </div>
-        
-        
         <div class="container1">
+
            <div class="img-presentation"> 
                 <img [src]="portfolioService.myImage" alt="Fotografía personal">
-             </div>
+            </div>
                 
             
             <div class="presentacion">
+
+                <div>
+                    <app-edit onclick="editElement('EditPresentation')"></app-edit>
+                </div>
+
                 <h2>Sobre mí</h2>
                 <p id="text-presentation" >{{portfolioService.aboutMe}}</p>
                     
-                    <form id="EditPresentation" style= "display:none">           
-                        <textarea oninput="ingresar_parrafo('text-presentation', this.value)" cols="30" rows="5" ></textarea>
-                        <input type="submit" onclick="guardar_cambio('EditPresentation')">
-                    </form>
-
+                <form id="EditPresentation" style= "display:none" class="edit">           
+                    <textarea oninput="ingresar_parrafo('text-presentation', this.value)" cols="30" rows="5" ></textarea>
+                    <input type="submit" onclick="guardar_cambio('EditPresentation')">
+                </form>
             </div>
             
         </div>
-            
-        <div class="background ">
-            
-                    <span class="name">{{portfolioService.name}}</span>
-                <br>
-                    <span>{{portfolioService.profession}}</span>
-                <br>
-                    <span>{{portfolioService.city}}</span>
+        <app-edit></app-edit>
+        <div class="resume">
+            <span class="name">{{portfolioService.name}}</span><br>
+            <span>{{portfolioService.profession}}</span><br>
+            <span>{{portfolioService.city}}</span>
         </div>
     </div>
     
