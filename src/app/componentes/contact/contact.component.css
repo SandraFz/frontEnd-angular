@@ -1,11 +1,10 @@
 .component-container {
-    
     background: var(--second-background-opacity);
-    /*border: 2px solid cadetblue;*/
+    border: 2px solid cadetblue;
 }
 
 form {
-    width: 50%;;
+    width: 300px;;
     /*border: 1px solid grey;*/
     margin: 20px;
     box-shadow: 0 4px 8px 0 var(--principal-background-opacity), 0 6px 20px 0 var(--principal-background-opacity);
@@ -23,14 +22,20 @@ input, textarea {
     width: 100%;
     padding: 5px;
 }
-
-@media screen and (max-width:768px) {
+/*
+@media screen and (max-width:800px) {
     .component-container {
         display: flex;
     }
-    
-    form {
+}*/
+
+@media screen and (max-width:500px){
+    .component-container {
         width:100%;
+    }
+
+    form {
+        width: 100%;
     }
 }
 

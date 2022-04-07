@@ -1,4 +1,9 @@
-
+/*
+.container1 {
+    display: grid;
+    grid-row: inherit;
+}
+*/
 .dinamic {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -21,7 +26,7 @@ app-sidebar {
     
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:500px){
 
     .dinamic {
         display:block;
