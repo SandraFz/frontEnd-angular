@@ -14,6 +14,7 @@ import { ContactComponent } from './componentes/contact/contact.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { EstudiesComponent } from './componentes/estudies/estudies.component';
 import { EditComponent } from './componentes/subcomponentes/edit/edit.component';
+import { FormEditableComponent } from './componentes/subcomponentes/formEditable/form-editable/form-editable.component';
 
 
 
@@ -30,7 +31,7 @@ import { EditComponent } from './componentes/subcomponentes/edit/edit.component'
     FooterComponent,
     EstudiesComponent,
     EditComponent,
-
+    FormEditableComponent,
   ],
   imports: [
     BrowserModule,
