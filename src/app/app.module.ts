@@ -31,7 +31,6 @@ import { EditComponent } from './componentes/subcomponentes/edit/edit.component'
     EstudiesComponent,
     EditComponent,
 
-
   ],
   imports: [
     BrowserModule,
