@@ -23,3 +23,5 @@ master4
                 •Tampoco entiendo por qué el botón "enviar" (que debería ser "guardar") cierra todos los textarea abiertos y no solo el del parámetro correspondiente.
                 •El databinding no funciona en el componente "proyecto", excepto el link de Argentina Programa al inicio del proyecto principal.
                 •Tampoco me funcionó el ngFor.
+master5
+•Adaptar todos los mediaqueries a las siguientes breakpoints max-width 200, 500, 800, 1200,1800.

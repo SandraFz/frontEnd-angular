@@ -6,7 +6,7 @@
 
 :root {
     --principal-background:RGB(107,112,92);
-    --principal-background-opacity: rgba(107,112,92, 0.8);
+    --principal-background-hover: #9b9b7a;
     --second-background:RGB(217,174,148);
     --second-background-trans:rgba(217,174,148,0.8);
     --img-project: auto;

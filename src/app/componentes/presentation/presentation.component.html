@@ -1,7 +1,6 @@
-<article>
 
-    <div class="component-container">
-        
+    <article class="component-container">
+        <!--Presentación-->  
         <div class="container1">
 
            <div class="img-presentation"> 
@@ -20,18 +19,28 @@
                     
                 <form id="EditPresentation" style= "display:none">           
                     <textarea oninput="ingresar_parrafo('text-presentation', this.value)" cols="30" rows="5" ></textarea>
-                    <input type="submit" onclick="guardar_cambio('EditPresentation')">
+                    <input type="submit" value="Guardar" onclick="guardar_cambio('EditPresentation')">
                 </form>
             </div>
             
         </div>
-        <app-edit></app-edit>
+
+        <!--Resumen/Datos-->
+        <app-edit onclick="editElement('datos')"></app-edit>
+
         <div class="resume">
-            <span class="name">{{portfolioService.name}}</span><br>
-            <span>{{portfolioService.profession}}</span><br>
-            <span>{{portfolioService.city}}</span>
+            <span id="name">{{portfolioService.name}}</span><br>
+            <span id="title">{{portfolioService.profession}}</span><br>
+            <span id="origin">{{portfolioService.city}}</span>
+
+            <form id="datos" style= "display:none" class="edit">          
+                <input type="text" placeholder="Nombre" maxlength="45" oninput="ingresar_parrafo('name', this.value)">
+                <input type="text" placeholder="Título" maxlength="45" oninput="ingresar_parrafo('title', this.value)">
+                <input type="text" placeholder="Origen" maxlength="45" oninput="ingresar_parrafo('origin', this.value)">
+                <input type="submit" value="Guardar" onclick="guardar_cambio('datos')">
+            </form>
         </div>
-    </div>
+    </article>
     
-</article>
+
 

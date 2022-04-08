@@ -20,6 +20,10 @@ button {
     padding: 5px 10px;
 }
 
+button:hover {
+    background: var(--principal-background-hover);
+}
+
 @media screen and (max-width: 200px){
     .component-container {
         flex-direction: column;

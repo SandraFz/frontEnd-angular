@@ -23,7 +23,8 @@ li {
 }
 
 img {
-    width: 36px;
+    width: 40px;
+    background:white;
 }
 
 .img {
@@ -34,7 +35,7 @@ img {
 }
 
 h6 {
-    font-size:18px;
+    font-size:14px;
     font-weight: bolder;
     margin-top: 20px;
     margin-bottom: 0px;
@@ -44,6 +45,10 @@ h6, p {
     min-height: 2%;
     margin-bottom: 0%;
     margin-top:0%;
+}
+
+p {
+    font-size: 11px;
 }
 
 li.studies {
