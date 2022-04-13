@@ -22,53 +22,56 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
             crossorigin="anonymous"></script>
-<script src="ecma_brw.js"></script>
+  <script src="./ecma_brw.js"></script>
         
 
 <script>
-    function editElement(idText){
-        document.getElementById(idText).style.display="block";
-        let text = document.getElementById(idText).innerText;
-        console.log(text);
-    };
-    function ingresar_parrafo(contentToChange, valor){
-      document.getElementById(contentToChange).innerText=valor;
-    };
-    function guardar_cambio(idText){
-      document.getElementById(idText).style.display="none";
-    }
-/*
-    function logMessage(message){
-      console.log(message + "<br>");
-    }
-     
-    //Controla si se presiona un enter
-     let textarea=getElementById("newText")
-    textarea.addEventListener("keyup", (e) => {
-      logMessage("Key '${e.key}' released [event: keyup]");
-      if (e.key="Enter") { 
-        document.getElementById("formEdit").style.display="none"
+  //cambia el estilo del input a visibles
+//toma el valor del texto del párrafo con id "text-presentation"
+//lo muestra en consola
+
+function editElement(){
+  document.getElementById("EditPresentation").style.display="block";
+  //document.getElementById("EditPresentation").style.border="2px solid green";
+  let texto = document.getElementById("text-presentation").innerText;
+  console.log(texto);
+};
+
+function ingresar_parrafo(valor) {
+  document.getElementById("text-presentation").innerText = valor;
+};
+
+function logMessage(message) {
+  console.log(message + "</br>");
+}
+
+//Si se presionó entero
+  let textarea=document.getElementById("EditPresentation")
+  textarea.addEventListener("keyup", (e) =>{
+      console.log(e)
+      logMessage('key "${e.key}" realizó [event: keyup]');
+      if(e.key == "Enter"){
+      document.getElementById("EditPresentation").style.display="none";
       }
-      console.log("El usuario presionó Enter");
-    });
-
-    //Carga el contenido de un archivo de texto y lo muestra en el párrafo
-
-    function showFile (input) {
-      let file=input.file[0];
-      alert("file name: $(file.name)"); 
-      alert("last modified: $(file.lastModified)"); 
+  })
+/*
+//Carga el contenido de un archivo de texto y lo carga en el párrafo
+  function showFile(input){
+      let file = input.files[0];
+      alert('Nombre de archivo: ${file.name}');
+      alert('Última modificación: ${file.lastModified}');
 
       let reader = new FileReader();
       reader.readAsText(file);
-      reader.onload = function () {
-        console.log(reader.result);
-        document.getElementById("text-presentation").innerText=reader.result;
+      reader.onload = function(){
+          console.log(reader.result);
+         document.getElementById("text-presentation").innerText=reader.result;
       };
-      reader.onerror = function () {
-        console.log(reader.error);
-      };
-    }*/
+      //reader.onerror = function(){
+      //    console.log(reader.error);
+      //};
+  }*/
+
 </script>
 
 

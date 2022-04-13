@@ -11,15 +11,18 @@
             <div class="presentacion">
 
                 <div>
-                    <app-edit onclick="editElement('EditPresentation')"></app-edit>
+                    <app-edit onclick="editElement()"></app-edit>
                 </div>
 
                 <h2>Sobre mí</h2>
                 <p id="text-presentation" >{{portfolioService.aboutMe}}</p>
                     
                 <form id="EditPresentation" style= "display:none">           
-                    <textarea oninput="ingresar_parrafo('text-presentation', this.value)" cols="30" rows="5" ></textarea>
-                    <input type="submit" value="Guardar" onclick="guardar_cambio('EditPresentation')">
+                    <textarea oninput="ingresar_parrafo(this.value)" cols="30" rows="5" ></textarea>
+                    <!--
+                    <input id="guardarPresentation" type="submit" value="Guardar" onclick="guardar_cambio()">
+                    <input id="cancelarEdit" type="submit" value="Cancelar" onclick="cancelarEdit()">
+                    -->
                 </form>
             </div>
             
@@ -38,6 +41,7 @@
                 <input type="text" placeholder="Título" maxlength="45" oninput="ingresar_parrafo('title', this.value)">
                 <input type="text" placeholder="Origen" maxlength="45" oninput="ingresar_parrafo('origin', this.value)">
                 <input type="submit" value="Guardar" onclick="guardar_cambio('datos')">
+                <input id="cancelarEdit" type="submit" value="Cancelar" onclick="cancelarEdit('EditPresentation')">
             </form>
         </div>
     </article>
