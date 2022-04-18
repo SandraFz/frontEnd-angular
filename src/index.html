@@ -37,10 +37,13 @@ function editElement(edit, text){
   console.log(texto);
 };
 
+//Opción 1: Cambia el valor del texto por el del ingresado en el input
 function ingresar_parrafo(text, valor){
   document.getElementById(text).innerText = valor;
 }
 
+//Opción 2: Cambia el valor del texto por el del ingresado en el input
+//y luego cierra el input
 function ingresar_y_cerrar(text, valor, edit) {
   ingresar_parrafo(text, valor);
 
@@ -48,7 +51,7 @@ function ingresar_y_cerrar(text, valor, edit) {
   console.log(message + "</br>");
 }
 
-  //Si se presionó entero
+  //Si se presionó Enter...
   let textarea=document.getElementById(edit)
   textarea.addEventListener("keyup", (e) =>{
       console.log(e)
