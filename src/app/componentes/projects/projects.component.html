@@ -7,8 +7,8 @@
             
             <a href="http://localhost:4200/" style="text-decoration: none"><h2>Mis proyectos en proceso</h2></a> <!--pasar a Json-->
             <app-edit onclick="editElement('EditPpalProyect')"></app-edit>
-            <p id="text-PpalProyect" style="background: yellow;">{{portfolioServProy.proyectos.descripcionProyectoPpal}}
-                <a [href]="portfolioServProy.linkArgProg">Argentina Programa - </a>
+            <p id="text-PpalProyect" style="background: yellow;">
+                <a target="_blank" [href]="portfolioServProy.linkProyectoPpal">Argentina Programa - </a>{{portfolioServProy.linkProyectoPpal}}
                 </p>
 
                 <form id="EditPpalProyect" style= "display:none">           

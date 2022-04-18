@@ -13,7 +13,7 @@
     "proyectos": [
         {
             "logoProyectoPpal":"",
-            "linkProyectoPpal":"",
+            "linkProyectoPpal":"https://www.argentina.gob.ar/produccion/transformacion-digital-y-economia-del-conocimiento/argentina-programa",
             "descripcionProyectoPpal":"Aquí voy a describir a grandes rasgos el proceso creativo del proyecto Argentina Programa. El texto estará precedido por el nombre del programa que será un link a la página oficial de AP; lo cual también va a funcionar cuando se haga click en la foto.",
             "imgProyectoPpal":"../../../../assets/img/"
         },

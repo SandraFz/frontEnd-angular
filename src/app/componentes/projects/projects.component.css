@@ -51,6 +51,10 @@ background: var(--principal-background);
     justify-content: space-between;
 }
 
+p {
+    color:black;
+}
+
 .row-project {
     display: flex;
     justify-content: center;

@@ -17,8 +17,9 @@ export class ProjectsComponent implements OnInit {
       console.log(data);
       this.portfolioServProy=data.proyectos;
     });
-      
     
   }
+
+  
 
 }
