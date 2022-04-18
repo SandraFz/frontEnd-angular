@@ -30,30 +30,38 @@
 //toma el valor del texto del párrafo con id "text-presentation"
 //lo muestra en consola
 
-function editElement(){
-  document.getElementById("EditPresentation").style.display="block";
+function editElement(edit, text){
+  document.getElementById(edit).style.display="block";
   //document.getElementById("EditPresentation").style.border="2px solid green";
-  let texto = document.getElementById("text-presentation").innerText;
+  let texto = document.getElementById(text).innerText;
   console.log(texto);
 };
 
-function ingresar_parrafo(valor) {
-  document.getElementById("text-presentation").innerText = valor;
-};
+function ingresar_parrafo(text, valor){
+  document.getElementById(text).innerText = valor;
+}
 
-function logMessage(message) {
+function ingresar_y_cerrar(text, valor, edit) {
+  ingresar_parrafo(text, valor);
+
+  function logMessage(message) {
   console.log(message + "</br>");
 }
 
-//Si se presionó entero
-  let textarea=document.getElementById("EditPresentation")
+  //Si se presionó entero
+  let textarea=document.getElementById(edit)
   textarea.addEventListener("keyup", (e) =>{
       console.log(e)
       logMessage('key "${e.key}" realizó [event: keyup]');
       if(e.key == "Enter"){
-      document.getElementById("EditPresentation").style.display="none";
+      document.getElementById(edit).style.display="none";
       }
   })
+};
+
+
+
+
 
 //Carga el contenido de un archivo de texto y lo carga en el párrafo
   function showFile(input){

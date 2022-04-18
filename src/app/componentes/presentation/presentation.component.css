@@ -11,10 +11,12 @@
         overflow: hidden;
         margin-right: 0px;
         justify-content: center;
+        width: 500px;
     }
 
     img {
         width: 100%;
+        /*max-width: 500px;*/
     }
 
     /*Texto principal*/
@@ -26,6 +28,9 @@
         text-align: right;
     }
 
+    .text-presentation {
+        margin-right: 20px;
+    }
 
 
     /*Datos*/
