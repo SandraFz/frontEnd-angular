@@ -5,12 +5,16 @@
         
         <div class="articles projects">
             
-            <a href="http://localhost:4200/" style="text-decoration: none"><h2>Mis proyectos en proceso</h2></a> <!--pasar a Json-->
+            <h2>Mis proyectos en proceso</h2> <!--pasar a Json-->
             <app-edit onclick="editElement('EditPpalProyect')"></app-edit>
-            <p id="text-PpalProyect" style="background: yellow;">
-                <a target="_blank" [href]="portfolioServProy.linkProyectoPpal">Argentina Programa - </a>{{portfolioServProy.linkProyectoPpal}}
-                </p>
-
+            <div class="text" style="background: yellow;" >
+                <div id="text-PpalProyect">
+                    {{portfolioServProy.proyectos.descripcionProyectoPpal}}
+                    <a target="_blank" [href]="portfolioServProy.linkProyectoPpal">Argentina Programa - </a>
+                </div>
+    
+            </div>
+            
                 <form id="EditPpalProyect" style= "display:none">           
                     <textarea oninput="ingresar_parrafo('text-PpalProyect', this.value)" cols="30" rows="5" ></textarea>
                     <input type="submit" onclick="guardar_cambio('EditPpalProyect')">

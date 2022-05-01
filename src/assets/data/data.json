@@ -9,13 +9,13 @@
     "city": "Formosa",
     "aboutMe":"Aquí voy a redactar de modo ameno una descripción de mi como persona y trabajadora. Aquí voy a redactar de modo ameno una descripción de mi como persona y trabajadora. Aquí voy a redactar de modo ameno una descripción de mi como persona y trabajadora.",
     "myImage": "../../../assets/img/fotoProfesional.jpg",
-
+   
     "proyectos": [
         {
             "logoProyectoPpal":"",
             "linkProyectoPpal":"https://www.argentina.gob.ar/produccion/transformacion-digital-y-economia-del-conocimiento/argentina-programa",
             "descripcionProyectoPpal":"Aquí voy a describir a grandes rasgos el proceso creativo del proyecto Argentina Programa. El texto estará precedido por el nombre del programa que será un link a la página oficial de AP; lo cual también va a funcionar cuando se haga click en la foto.",
-            "imgProyectoPpal":"../../../../assets/img/"
+            "imgProyectoPpal":"../../../assets/img/sigmud-F_m44ut3XTx-unsplash.jpg"
         },
         {
             "logoProyecto2":"../../../assets/img/FNA-logo.png",
