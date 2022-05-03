@@ -25,3 +25,7 @@ master4
                 •Tampoco me funcionó el ngFor.
 master5
 •Adaptar todos los mediaqueries a las siguientes breakpoints max-width 200, 500, 800, 1200,1800.
+        integration5.2
+        Integrar front con back. Ya lo hice en otro proyecto pero estaba vacío y cuando fui agregando componentes, estos no funcionaron como esperaba.
+        Después lo intenté en una rama de este y se rompió todo porque, coincidentemente, moví archivos para ordenar mejor el proyecto.
+        

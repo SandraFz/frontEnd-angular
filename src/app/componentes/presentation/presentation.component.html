@@ -4,7 +4,7 @@
         <div class="container1">
 
            <div class="img-presentation"> 
-                <img [src]="portfolioService.myImage" alt="Fotografía personal">
+                <img src="../../../assets/img/Lola_y_yo_en_Mascompany.jpg" alt="Fotografía personal">
             </div>
                 
             
@@ -15,7 +15,7 @@
                 </div>
 
                 <h2>Sobre mí</h2>
-                <p id="text-presentation">{{portfolioService.aboutMe}}</p>
+                <p id="text-presentation">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore tempore saepe laborum minus facilis aspernatur delectus, eos, ut quod architecto ex eligendi? Harum temporibus laboriosam voluptatum eius neque totam ullam?</p>
                     
                 <form id="EditPresentation" style= "display:none">           
                     <textarea oninput="ingresar_y_cerrar('text-presentation', this.value, 'EditPresentation')" cols="30" rows="5" ></textarea>
@@ -32,9 +32,9 @@
         <app-edit onclick="editElement('datos', 'name')"></app-edit>
 
         <div class="resume">
-            <span id="name">{{portfolioService.name}}</span><br>
-            <span id="title">{{portfolioService.profession}}</span><br>
-            <span id="origin">{{portfolioService.city}}</span>
+            <span id="name">Sandra N. Fernández</span><br>
+            <span id="title">Developer</span><br>
+            <span id="origin">Formosa</span>
 
             <form id="datos" style= "display:none" class="edit">          
                 <input type="text" placeholder="Nombre" maxlength="45" oninput="ingresar_parrafo('name', this.value)">

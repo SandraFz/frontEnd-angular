@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { ServicioService } from 'src/app/servicios/servicio.service';
+import { Person } from 'src/app/model/person';
+import { IntegrationService } from 'src/app/servicios/integration.service';
 
 
 @Component({
@@ -8,15 +9,21 @@ import { ServicioService } from 'src/app/servicios/servicio.service';
   styleUrls: ['./presentation.component.css']
 })
 export class PresentationComponent implements OnInit {
-  portfolioService: any;
-  constructor(private datosPorfolio:ServicioService) { }
+
+  person:Person[]=[];
+  
+  constructor(private integration:IntegrationService) { }
 
   ngOnInit(): void {
-    this.datosPorfolio.obtenerDatos().subscribe(data => {
-      console.log(data);
 
-    this.portfolioService=data;
-    }); 
-  }
+      this.getPerson();
 
+    }
+
+    public getPerson(){
+      this.integration.getPersonServ().subscribe(pers =>{
+        console.log(pers);
+        this.person=pers;
+      })
+    }
 }
